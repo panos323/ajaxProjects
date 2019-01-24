@@ -1,0 +1,33 @@
+#styleJumbotron{
+    border-radius:25px;
+    background-color:rgb(124, 78, 78);
+    color:white;
+    margin-bottom:80px;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px rgb(248, 219, 219);
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+hr.style-six {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+}
+hr.style-six:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+
+#noResults{
+    display:none;
+}
+
+#cardDynamic{
+    display:none;
+}

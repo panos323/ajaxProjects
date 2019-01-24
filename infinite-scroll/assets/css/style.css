@@ -1,0 +1,22 @@
+.blog-post{
+    margin-bottom:25px;
+}
+
+.blog-post .card-header{
+    background-color:palevioletred;
+    color:white;
+}
+
+#spinnerImg{
+    display:none;
+}
+
+.hrDB {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 22px 22px -22px rgba(0, 0, 0, 0.5);
+}
+
+#load_more{
+    display:none;
+}

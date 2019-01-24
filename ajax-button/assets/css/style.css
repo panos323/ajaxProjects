@@ -1,0 +1,25 @@
+.favorite-heart{
+    font-size:2em;
+    color:red;
+    display:none;
+}
+
+.favorite .favorite-heart{
+    display:block;
+}
+
+.like-button{
+    display: inline;
+}
+
+.favorite .like-button{
+    display: none;
+}
+
+.unlike-button{
+    display: none;
+}
+
+.favorite .unlike-button{
+    display: inline;
+}
